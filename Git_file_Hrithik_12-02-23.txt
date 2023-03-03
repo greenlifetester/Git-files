@@ -1,0 +1,40 @@
+git init: this is initialising your git workspace
+
+nano < file-name>: it is used to add the content inside my files
+ex- nano 1.txt
+ctrl+ s: to save it
+ctrl+x: to exit out
+
+ls: (list): it is used to show the all the files that we created
+
+git status: it is used to show the status of all the files, that you are created
+
+git add <file-name>: if we want to track one file, then we can use this command
+
+git add . : if we want to track all the files, which is present there, then we can use this command.
+
+git commit -m "any message": 
+
+git branch <branch-name>: it is used to make another branch apart from default one.
+ex-  git branch test
+
+git remote add origin <link>: it is used to make the connection between git workspace and git-hub repository.
+
+git push origin <branch-name>: it is used to push any branch from git workspace to github repository
+ex- git push origin master
+
+git push origin --all: it is used to push all the branches in a one-way.
+
+git checkout <branch-name>: it is used to go from one branch to another one.
+ex- git checkout test
+
+git branch: it is used to listout all the branches, which is present there.
+
+git merge <branch-name>: it is used to merge one branch to another one.
+
+git branch -D <branch-name>: it is used to delete any particular branch(firstly we need to checkout to master , then use this deletion command)
+
+git  push origin --delete <branch-name>: it is used to delete any branch from github-repository.
+
+git clone <link of github-repository>: this is used to clone the all data from that link.
+
